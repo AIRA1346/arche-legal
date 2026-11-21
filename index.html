@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal &amp; Policy Hub — ARCHE</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #faf9f6; --fg: #1c1b18; --muted: #5a574f; --card: #ffffff; --border: #e4e0d5; --accent: #2f5d50; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #141513; --fg: #eceae3; --muted: #a6a295; --card: #1d1f1c; --border: #31342e; --accent: #7ec4ad; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif; background: var(--bg); color: var(--fg); line-height: 1.72; }
+    header { border-bottom: 1px solid var(--border); background: var(--card); position: sticky; top: 0; z-index: 10; }
+    .nav { max-width: 860px; margin: 0 auto; padding: 14px 20px; display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; }
+    .brand { font-weight: 700; text-decoration: none; color: var(--fg); letter-spacing: 0.02em; }
+    nav { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.94rem; }
+    nav a { color: var(--muted); text-decoration: none; padding: 4px 8px; border-radius: 6px; }
+    nav a:hover, nav a.active { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); font-weight: 600; }
+    main { max-width: 860px; margin: 32px auto 64px; padding: 28px 28px 36px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; }
+    h1 { margin-top: 0; font-size: 1.75rem; line-height: 1.3; }
+    h2 { margin-top: 2rem; padding-bottom: 0.35rem; border-bottom: 1px solid var(--border); font-size: 1.3rem; }
+    h3 { margin-top: 1.4rem; font-size: 1.08rem; }
+    a { color: var(--accent); }
+    code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.9em; padding: 2px 5px; border-radius: 4px; background: color-mix(in srgb, var(--fg) 7%, transparent); }
+    ul, ol { padding-left: 1.4rem; }
+    li { margin: 0.35rem 0; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin: 20px 0; }
+    .card { display: block; padding: 16px 18px; border: 1px solid var(--border); border-radius: 10px; text-decoration: none; color: var(--fg); }
+    .card:hover { border-color: var(--accent); }
+    .card strong { display: block; color: var(--accent); margin-bottom: 6px; }
+    .card span { font-size: 0.9rem; color: var(--muted); }
+    footer { max-width: 860px; margin: 0 auto 40px; padding: 0 20px; font-size: 0.86rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a class="brand" href="./">ARCHE · Legal &amp; Policies</a>
+      <nav>
+        <a href="./privacy/" class="">Privacy / 개인정보처리방침</a>
+        <a href="./terms/" class="">Terms &amp; CLA / 이용약관</a>
+        <a href="./guidelines/" class="">Guidelines / 가이드라인</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    
+<h1>ARCHE (아르케) 공개 정책 및 법적 문서 · Legal &amp; Policy Hub</h1>
+<p><strong>ARCHE</strong> (Steam AppID <code>5560360</code>, 무료 소프트웨어 애플리케이션 / Free Software Application)의 공식 공개 정책 문서입니다. 운영자: <strong>Runic Atelier</strong> (<code>runicatelier@gmail.com</code>) · 버전: <code>v1.0</code> (2026-11-21).</p>
+<div class="cards">
+  <a class="card" href="./privacy/">
+    <strong>개인정보처리방침 · Privacy Policy</strong>
+    <span>SteamID64 인증 범위, 로컬 초안 분리, AES-256-GCM 30일 암호화 백업, 삭제 및 저자 익명화 기준</span>
+  </a>
+  <a class="card" href="./terms/">
+    <strong>이용약관 · 공개 세계관 라이선스 · CLA</strong>
+    <span>창립자 소유·편집권, 공개 세계관 CC BY-SA 4.0 호환 이용(상업 2차 창작 포함), 기여자 영구 이용허락 및 AI 협업 사전 동의</span>
+  </a>
+  <a class="card" href="./guidelines/">
+    <strong>공동체 운영·검토·신고 가이드라인</strong>
+    <span>반려 사유 4분류, 비정본 참고 이미지 규칙, 저작권·유해물 신고 및 임시 비노출·계정 회수 절차</span>
+  </a>
+</div>
+<p>원본 마크다운 파일은 <a href="https://github.com/AIRA1346/arche-legal">github.com/AIRA1346/arche-legal</a>에서 열람할 수 있습니다.</p>
+
+  </main>
+  <footer>
+    ARCHE (Steam AppID 5560360) · Operated by Runic Atelier · Contact: <a href="mailto:runicatelier@gmail.com">runicatelier@gmail.com</a>
+  </footer>
+</body>
+</html>
